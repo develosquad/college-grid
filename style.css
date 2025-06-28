@@ -1,328 +1,323 @@
 * {
-            box-sizing: border-box;
-        }
+    box-sizing: border-box;
+}
 
-        body {
-            margin: 0;
-            background: #eac7bb;
-            font-family: serif;
-        }
+body {
+    margin: 0;
+    background: #eac7bb;
+    font-family: serif;
+}
 
-        .hero-collage {
-            position: relative;
-            min-height: 100vh;
-            width: 100vw;
-            overflow: hidden;
-            padding: 40px;
-        }
+.hero-collage {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: 40px;
+}
 
-        /* Optional background grid lines */
-        .grid-lines {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-image:
-                linear-gradient(to right, #ea9f95 1px, transparent 1px),
-                linear-gradient(to bottom, #ea9f95 1px, transparent 1px);
-            background-size: 240px 240px;
-            pointer-events: none;
-        }
+/* Optional background grid lines */
+.grid-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        linear-gradient(to right, #ea9f95 1px, transparent 1px),
+        linear-gradient(to bottom, #ea9f95 1px, transparent 1px);
+    background-size: 240px 240px;
+    pointer-events: none;
+}
 
-        /* Sidebar */
-        .sidebar {
-            position: absolute;
-            left: 150px;
-            top: 260px;
-            font-size: 0.9rem;
-            font-weight: 500;
-            color: #b0251d;
-            line-height: 1.8;
-            z-index: 15;
-        }
+/* Sidebar */
+.sidebar {
+    position: absolute;
+    left: 150px;
+    top: 260px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #b0251d;
+    line-height: 1.8;
+    z-index: 15;
+}
 
-        /* Title */
-        .hero-title {
-            position: absolute;
-            left: 50%;
-            top: 40%;
-            font-size: 4rem;
-            font-weight: 400;
-            color: #3d1012;
-            z-index: 10;
-            transform: translate(-50%, -40%);
-            text-align: center;
-        }
+/* Title */
+.hero-title {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #3d1012;
+    z-index: 10;
+    transform: translate(-50%, -40%);
+    text-align: center;
+}
 
-        .main-p {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            font-size: 1rem;
-            font-weight: 400;
-            color: #3d1012;
-            z-index: 10;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            max-width: 90%;
-        }
+.main-p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #3d1012;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 90%;
+}
 
-        /* Icon under title */
-        .icon {
-            position: absolute;
-            left: 340px;
-            top: 520px;
-            font-size: 2rem;
-            color: #c0473b;
-            z-index: 15;
-        }
+/* Icon under title */
+.icon {
+    position: absolute;
+    left: 340px;
+    top: 520px;
+    font-size: 2rem;
+    color: #c0473b;
+    z-index: 15;
+}
 
-        /* Images */
-        .img {
-            position: absolute;
-            border-radius: 4px;
-            width: auto;
-            max-width: 400px;
-            object-fit: cover;
-        }
+/* Images */
+.img {
+    position: absolute;
+    border-radius: 4px;
+    width: auto;
+    max-width: 400px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
-        /* Original desktop positioning - unchanged */
-        .fries { top: 0; left: 0; width: 240px; height: 230px; }
-        .drink-top { top: 0; left: 360px; width: 230px; height: 290px; }
-        .noodles { top: 40px; left: 690px; width: 180px; height: 250px; }
-        .woman-pizza { top: 0; right: 240px; width: 220px; }
-        .cookies { top: 140px; right: 0; width: 280px; height: 340px; }
-        .pizza-hand { bottom: 0; left: 0; width: 200px; }
-        .red-drink { bottom: 50px; left: 170px; width: 240px; height: 320px; }
-        .retro-drink { bottom: 60px; left: 620px; width: 170px; }
-        .yellow-drink { bottom: 2px; right: 460px; width: 220px; height: 290px; }
-        .green-hand { bottom: 40px; right: 100px; width: 253px; height: 360px; }
+/* Original desktop positioning - unchanged */
+.fries { top: 0; left: 0; width: 240px; height: 230px; }
+.drink-top { top: 0; left: 360px; width: 230px; height: 290px; }
+.noodles { top: 40px; left: 690px; width: 180px; height: 250px; }
+.woman-pizza { top: 0; right: 240px; width: 220px; }
+.cookies { top: 140px; right: 0; width: 280px; height: 340px; }
+.pizza-hand { bottom: 0; left: 0; width: 200px; }
+.red-drink { bottom: 50px; left: 170px; width: 240px; height: 320px; }
+.retro-drink { bottom: 60px; left: 620px; width: 170px; }
+.yellow-drink { bottom: 2px; right: 460px; width: 220px; height: 290px; }
+.green-hand { bottom: 40px; right: 100px; width: 253px; height: 360px; }
 
-        /* Tablet Styles */
-        @media (max-width: 1024px) {
-            .hero-collage {
-                padding: 30px;
-            }
-            
-            .hero-title {
-                font-size: 3rem;
-                top: 35%;
-            }
-            
-            .main-p {
-                font-size: 0.9rem;
-                top: 45%;
-            }
-            
-            .sidebar {
-                left: 80px;
-                top: 200px;
-                font-size: 0.8rem;
-            }
-            
-            .icon {
-                left: 280px;
-                top: 420px;
-                font-size: 1.8rem;
-            }
-            
-            /* Adjust some images for tablet - keep original positioning logic */
-            .fries { width: 200px; height: 190px; }
-            .drink-top { width: 190px; height: 240px; left: 300px; }
-            .noodles { width: 150px; height: 200px; left: 550px; }
-            .woman-pizza { width: 180px; right: 180px; }
-            .cookies { width: 220px; height: 280px; }
-            .red-drink { width: 200px; height: 270px; left: 140px; }
-            .retro-drink { width: 140px; left: 480px; }
-            .yellow-drink { width: 180px; height: 240px; right: 320px; }
-            .green-hand { width: 200px; height: 290px; right: 80px; }
-        }
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .hero-collage {
+        padding: 30px;
+    }
+    
+    .hero-title {
+        font-size: 3rem;
+        top: 35%;
+    }
+    
+    .main-p {
+        font-size: 0.9rem;
+        top: 45%;
+    }
+    
+    .sidebar {
+        left: 80px;
+        top: 200px;
+        font-size: 0.8rem;
+    }
+    
+    .icon {
+        left: 280px;
+        top: 420px;
+        font-size: 1.8rem;
+    }
+    
+    /* Adjust some images for tablet - keep original positioning logic */
+    .fries { width: 200px; height: 190px; }
+    .drink-top { width: 190px; height: 240px; left: 300px; }
+    .noodles { width: 150px; height: 200px; left: 550px; }
+    .woman-pizza { width: 180px; right: 180px; }
+    .cookies { width: 220px; height: 280px; }
+    .red-drink { width: 200px; height: 270px; left: 140px; }
+    .retro-drink { width: 140px; left: 480px; }
+    .yellow-drink { width: 180px; height: 240px; right: 320px; }
+    .green-hand { width: 200px; height: 290px; right: 80px; }
+}
 
-        /* Mobile Styles */
-        @media (max-width: 768px) {
-            .hero-collage {
-                padding: 20px;
-                min-height: 140vh;
-            }
-            
-            .grid-lines {
-                background-size: 120px 120px;
-            }
-            
-            .hero-title {
-                font-size: 2.2rem;
-                top: 25%;
-                white-space: nowrap;
-            }
-            
-            .main-p {
-                font-size: 0.85rem;
-                top: 35%;
-                padding: 0 10px;
-            }
-            
-            .sidebar {
-                left: 20px;
-                top: 150px;
-                font-size: 0.7rem;
-                line-height: 1.6;
-            }
-            
-            .icon {
-                left: 50%;
-                top: 320px;
-                transform: translateX(-50%);
-                font-size: 1.5rem;
-            }
-            
-            /* Mobile layout inspired by the grid design - 2 images above title, arranged around */
-            .fries { 
-                top: 60px; 
-                left: 20px; 
-                width: 140px; 
-                height: 120px; 
-            }
-            
-            .drink-top { 
-                top: 60px; 
-                right: 20px; 
-                width: 140px; 
-                height: 140px; 
-            }
-            
-            .noodles { 
-                top: 400px; 
-                left: 20px; 
-                width: 140px; 
-                height: 120px; 
-            }
-            
-            .woman-pizza { 
-                top: 400px; 
-                right: 20px; 
-                width: 140px; 
-                height: 140px; 
-            }
-            
-            .cookies { 
-                top: 560px; 
-                left: 50%; 
-                transform: translateX(-50%);
-                width: 160px; 
-                height: 130px;
-            }
-            
-            .pizza-hand { 
-                top: 720px; 
-                left: 20px; 
-                width: 140px; 
-                height: 120px;
-            }
-            
-            .red-drink { 
-                top: 720px; 
-                right: 20px; 
-                width: 140px; 
-                height: 140px; 
-            }
-            
-            .retro-drink { 
-                top: 880px; 
-                left: 20px; 
-                width: 140px; 
-                height: 130px;
-            }
-            
-            .yellow-drink { 
-                top: 880px; 
-                right: 20px; 
-                width: 140px; 
-                height: 140px; 
-            }
-            
-            .green-hand { 
-                top: 1040px; 
-                left: 50%; 
-                transform: translateX(-50%);
-                width: 160px; 
-                height: 150px;
-            }
-            
-            /* Show all images on mobile */
-        }
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hero-collage {
+        padding: 15px;
+        min-height: 120vh;
+    }
+    
+    .grid-lines {
+        background-size: 100px 100px;
+    }
+    
+    .hero-title {
+        font-size: 2.2rem;
+        top: 25%;
+        white-space: nowrap;
+        width: 100%;
+    }
+    
+    .main-p {
+        font-size: 0.85rem;
+        top: 33%;
+        padding: 0 10px;
+        max-width: 300px;
+    }
+    
+    .sidebar {
+        left: 20px;
+        top: 150px;
+        font-size: 0.7rem;
+        line-height: 1.6;
+    }
+    
+    .icon {
+        left: 50%;
+        top: 38%;
+        transform: translateX(-50%);
+        font-size: 1.5rem;
+    }
+    
+    /* Improved mobile layout with larger images and better spacing */
+    .img {
+        width: 45% !important;
+        height: auto !important;
+        max-width: none !important;
+    }
+    
+    .fries { 
+        top: 20px; 
+        left: 15px; 
+        height: 180px !important;
+    }
+    
+    .drink-top { 
+        top: 20px; 
+        right: 15px; 
+        left: auto;
+        height: 180px !important;
+    }
+    
+    .noodles { 
+        top: 220px; 
+        left: 15px; 
+        height: 180px !important;
+    }
+    
+    .woman-pizza { 
+        top: 220px; 
+        right: 15px; 
+        left: auto;
+        height: 180px !important;
+    }
+    
+    .cookies { 
+        top: 420px; 
+        left: 50%; 
+        transform: translateX(-50%);
+        width: 60% !important;
+        height: 200px !important;
+    }
+    
+    .pizza-hand { 
+        top: 640px; 
+        left: 15px; 
+        height: 180px !important;
+    }
+    
+    .red-drink { 
+        top: 640px; 
+        right: 15px; 
+        left: auto;
+        height: 180px !important;
+    }
+    
+    .retro-drink { 
+        top: 840px; 
+        left: 15px; 
+        height: 180px !important;
+    }
+    
+    .yellow-drink { 
+        top: 840px; 
+        right: 15px; 
+        left: auto;
+        height: 180px !important;
+    }
+    
+    .green-hand { 
+        top: 1040px; 
+        left: 50%; 
+        transform: translateX(-50%);
+        width: 60% !important;
+        height: 200px !important;
+    }
+}
 
-        /* Small Mobile Styles */
-        @media (max-width: 480px) {
-            .hero-title {
-                font-size: 1.8rem;
-                top: 22%;
-            }
-            
-            .main-p {
-                font-size: 0.75rem;
-                top: 32%;
-            }
-            
-            .sidebar {
-                font-size: 0.65rem;
-                top: 130px;
-            }
-            
-            .icon {
-                top: 280px;
-                font-size: 1.3rem;
-            }
-            
-            /* Top images remain above heading */
-            .fries, .drink-top { 
-                width: 100px; 
-                height: 120px;
-            }
-            
-            .noodles, .retro-drink { 
-                width: 110px; 
-                height: 120px;
-            }
-            
-            .pizza-hand {
-                width: 100px;
-                height: 130px;
-            }
-        }
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.8rem;
+        top: 22%;
+    }
+    
+    .main-p {
+        font-size: 0.75rem;
+        top: 30%;
+    }
+    
+    .sidebar {
+        font-size: 0.65rem;
+        top: 130px;
+    }
+    
+    .icon {
+        top: 35%;
+    }
+    
+    /* Adjust image heights for very small screens */
+    .img {
+        height: 150px !important;
+    }
+    
+    .cookies, .green-hand {
+        height: 180px !important;
+    }
+}
 
-        /* Landscape orientation adjustments for mobile */
-        @media (max-width: 768px) and (orientation: landscape) {
-            .hero-collage {
-                min-height: 220vh;
-            }
-            
-            .hero-title {
-                top: 15%;
-                font-size: 2rem;
-            }
-            
-            .main-p {
-                top: 25%;
-            }
-            
-            .icon {
-                top: 200px;
-            }
-            
-            .sidebar {
-                top: 100px;
-            }
-            
-            /* Adjust positions for landscape mobile */
-            .fries { top: 40px; }
-            .drink-top { top: 40px; }
-            .noodles { top: 280px; }
-            .woman-pizza { top: 280px; }
-            .cookies { top: 420px; }
-            .pizza-hand { top: 560px; }
-            .red-drink { top: 560px; }
-            .retro-drink { top: 700px; }
-            .yellow-drink { top: 700px; }
-            .green-hand { top: 840px; }
-        }
+/* Landscape orientation adjustments for mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero-collage {
+        min-height: 200vh;
+    }
+    
+    .hero-title {
+        top: 15%;
+        font-size: 2rem;
+    }
+    
+    .main-p {
+        top: 23%;
+    }
+    
+    .icon {
+        top: 28%;
+    }
+    
+    .sidebar {
+        top: 100px;
+    }
+    
+    /* Adjust positions for landscape mobile */
+    .fries { top: 20px; }
+    .drink-top { top: 20px; }
+    .noodles { top: 200px; }
+    .woman-pizza { top: 200px; }
+    .cookies { top: 380px; }
+    .pizza-hand { top: 560px; }
+    .red-drink { top: 560px; }
+    .retro-drink { top: 740px; }
+    .yellow-drink { top: 740px; }
+    .green-hand { top: 920px; }
+}
