@@ -8,6 +8,20 @@ body {
     font-family: serif;
 }
 
+/* Global image fade-in */
+img {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInImage 1s ease-out forwards;
+}
+
+@keyframes fadeInImage {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero-collage {
     position: relative;
     min-height: 100vh;
